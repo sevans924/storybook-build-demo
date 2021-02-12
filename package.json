@@ -2,6 +2,11 @@
   "name": "sevans-storybook-demo",
   "version": "0.1.0",
   "private": false,
+  "description": "Learn Storybook design system",
+  "main": "dist/index.js",
+  "repository": "git@github.com:sevans924/storybook-build-demo.git",
+  "author": "sevans924 <sevans924@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "@storybook/addon-docs": "^6.1.16",
     "@testing-library/jest-dom": "^5.11.4",
@@ -16,9 +21,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
@@ -61,10 +66,5 @@
         }
       ]
     ]
-  },
-  "description": "Learn Storybook design system",
-  "main": "index.js",
-  "repository": "git@github.com:sevans924/storybook-build-demo.git",
-  "author": "sevans924 <sevans924@gmail.com>",
-  "license": "MIT"
+  }
 }
