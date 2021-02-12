@@ -1,0 +1,42 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import { Nav, LogoDiv, ButtonDiv } from "./Nav";
+import { SecondaryLogo } from "./Logo";
+import { TertiaryButton } from "./Buttons";
+
+<Meta title="UPhill Design System | Nav" component={Nav} />
+
+# Nav
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+## Logo
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+## Buttons
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+<Preview withToolbar>
+  <Story name="Nav">
+  <Nav>
+        <LogoDiv>
+          <SecondaryLogo>UP/hill</SecondaryLogo>
+        </LogoDiv>
+        <ButtonDiv>
+          <TertiaryButton>Shop</TertiaryButton>
+          <TertiaryButton>Blog</TertiaryButton>
+          <TertiaryButton>Location</TertiaryButton>
+          <TertiaryButton>Contact Us</TertiaryButton>
+        </ButtonDiv>
+      </Nav>
+  </Story>
+</Preview>

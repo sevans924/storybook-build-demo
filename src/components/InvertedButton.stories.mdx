@@ -1,0 +1,53 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import { InvertedPrimaryButton, InvertedSecondaryButton, InvertedLargeButton, InvertedSmallButton, InvertedTertiaryButton } from "./InvertedButtons";
+
+<Meta title="UPhill Design System | Inverted Buttons" component={InvertedPrimaryButton } />
+
+# Buttons
+
+Buttons are used to trigger actions within an application.
+
+## Usage
+
+Buttons are used to trigger internal actions within your web applications.
+
+## Primary Buttons
+
+Primary buttons are used as a call to action and indicate the most important action on a page.
+
+<Preview withToolbar>
+  <Story name="inverted-primary">
+    <InvertedPrimaryButton>Submit</InvertedPrimaryButton>
+  </Story>
+</Preview>
+
+## Secondary Buttons
+
+Primary buttons are used as a call to action and indicate the most important action on a page.
+
+<Story name="inverted-secondary">
+  <InvertedSecondaryButton>Submit</InvertedSecondaryButton>
+</Story>
+
+## Large and Small Buttons
+
+Different button sizes might be appropriate for the component that you are working on.
+
+### Large Button
+<Story name="inverted-large">
+  <InvertedLargeButton>Submit</InvertedLargeButton>
+</Story>
+
+### Small Button
+
+<Story name="inverted-small">
+  <InvertedSmallButton>Submit</InvertedSmallButton>
+</Story>
+
+## Tertiary Button
+
+Tertiary Buttons are used primarily in the navbar.
+
+<Story name="tertiary">
+  <InvertedTertiaryButton>Submit</InvertedTertiaryButton>
+</Story>

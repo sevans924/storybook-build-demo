@@ -1,0 +1,42 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import { InvertedNav, InvertedLogoDiv, InvertedButtonDiv } from "./InvertedNav";
+import { InvertedPrimaryLogo } from "./InvertedLogo";
+import { InvertedTertiaryButton } from "./InvertedButtons";
+
+<Meta title="UPhill Design System | Inverted Nav" component={InvertedNav} />
+
+# Nav
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+## Logo
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+## Buttons
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+<Preview withToolbar>
+  <Story name="hero">
+      <InvertedNav>
+        <InvertedLogoDiv>
+          <InvertedPrimaryLogo>UP/hill</InvertedPrimaryLogo>
+        </InvertedLogoDiv>
+        <InvertedButtonDiv>
+          <InvertedTertiaryButton>Shop</InvertedTertiaryButton>
+          <InvertedTertiaryButton>Blog</InvertedTertiaryButton>
+          <InvertedTertiaryButton>Location</InvertedTertiaryButton>
+          <InvertedTertiaryButton>Contact Us</InvertedTertiaryButton>
+        </InvertedButtonDiv>
+      </InvertedNav>
+  </Story>
+</Preview>

@@ -1,0 +1,33 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import { InvertedPrimaryLogo, HeroLogo } from "./InvertedLogo";
+
+<Meta title="UPhill Design System | Inverted Logo" component={InvertedPrimaryLogo} />
+
+# Logo
+
+This is the UP/hill studio logo.
+
+## Usage
+
+The Logo buttons will be used in the navbar to navigate users back to the homepage. The Logo may also appear in other components throughout the app.
+
+## Primary Logo
+
+Primary Logo is the Logo that will primarily appear on the website.
+
+<Preview withToolbar>
+  <Story name="inverted-primary-logo">
+    <InvertedPrimaryLogo>UP/hill</InvertedPrimaryLogo>
+  </Story>
+</Preview>
+
+## Hero Logo
+
+The Hero logo button will be included in the Hero banner and will link back to the homepage.
+
+<Preview withToolbar>
+  <Story name="hero-logo">
+    <HeroLogo>UP</HeroLogo>
+  </Story>
+</Preview>
+

@@ -1,0 +1,43 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import { PrimaryInput, ErrorInput, Label, ErrorLabel } from "./TextField";
+
+<Meta title="UPhill Design System | Text Field" component={PrimaryInput} />
+
+# Text Fields
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+## Usage
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+## Primary Text Field
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+<Preview withToolbar>
+  <Story name="primary-input">
+    <Label>Label</Label>
+    <PrimaryInput/>
+  </Story>
+</Preview>
+
+## Text Field with Error
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+laboris nisi ut aliquip ex ea commodo consequat. 
+
+
+<Story name="error-input">
+   <ErrorLabel>Label</ErrorLabel>
+    <ErrorInput placeholder="Content"></ErrorInput>
+    <ErrorLabel>Input is invalid</ErrorLabel>
+</Story>

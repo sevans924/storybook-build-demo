@@ -1,0 +1,52 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import { PrimaryButton, SecondaryButton, LargeButton, SmallButton, TertiaryButton } from "./Buttons";
+
+<Meta title="UPhill Design System | Default Buttons" component={PrimaryButton} />
+
+# Buttons
+
+Buttons are used to trigger actions within an application.
+
+## Usage
+
+Buttons are used to trigger internal actions within your web applications.
+
+## Primary Buttons
+
+Primary buttons are used as a call to action and indicate the most important action on a page.
+
+<Preview withToolbar>
+  <Story name="primary">
+    <PrimaryButton>Submit</PrimaryButton>
+  </Story>
+</Preview>
+
+## Secondary Buttons
+
+Secondary buttons are used to indicate that an action is possible, but is less important than one represented by a primary button.
+
+<Story name="secondary">
+  <SecondaryButton>Submit</SecondaryButton>
+</Story>
+
+## Large and Small Buttons
+
+Different button sizes might be appropriate for the component that you are working on.
+
+### Large 
+<Story name="large">
+  <LargeButton>Submit</LargeButton>
+</Story>
+
+### Small
+<Story name="small">
+  <SmallButton>Submit</SmallButton>
+</Story>
+
+## Tertiary Button
+
+Tertiary Buttons are used primarily in the navbar.
+
+<Story name="tertiary">
+  <TertiaryButton>Submit</TertiaryButton>
+</Story>
